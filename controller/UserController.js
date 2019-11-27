@@ -305,10 +305,15 @@ function MathRand() {
     return num
 }
 
+async function hello(ctx,next){
+	ctx.body = "hello world !"
+}
+
 module.exports = {
     'POST /api/user/register': register,
     'POST /api/user/login': login,
     'POST /api/user/getPwdBack': getPwdBack,
     'POST /api/user/getVfCode': getVfCode,
-    'POST /api/user/getVfCodeToFind':getVfCodeToFind
+    'POST /api/user/getVfCodeToFind':getVfCodeToFind,
+	'GET /hello'
 }

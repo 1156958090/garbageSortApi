@@ -21,6 +21,7 @@ app.use(
             /^\/api\/user\/garbageSort/,
             /^\/api\/user\/getVfCodeToFind/,
             /^\/api\/user\/getPwdBack/,
+			/^\/hello/
         ]
     })
 );
