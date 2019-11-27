@@ -315,5 +315,5 @@ module.exports = {
     'POST /api/user/getPwdBack': getPwdBack,
     'POST /api/user/getVfCode': getVfCode,
     'POST /api/user/getVfCodeToFind':getVfCodeToFind,
-	'GET /hello'：hello
+	'GET /hello':hello
 }
